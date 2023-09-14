@@ -1,0 +1,30 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: custom-metrics-apiserver-simulator
+rules:
+- apiGroups:
+  - custom-metrics-apiserver-simulator.zsm.io
+  resources:
+  - custommetrics
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - custom-metrics-apiserver-simulator.zsm.io
+  resources:
+  - externalmetrics
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch

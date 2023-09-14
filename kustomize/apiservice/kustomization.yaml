@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- v1beta1.custom.metrics.k8s.io.yaml
+- v1beta2.custom.metrics.k8s.io.yaml
+- v1beta1.external.metrics.k8s.io.yaml
