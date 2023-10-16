@@ -66,14 +66,14 @@ require (
 	github.com/spf13/cobra v1.7.0 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
 	github.com/wzshiming/trie v0.1.1 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.35.1 // indirect
-	go.opentelemetry.io/otel v1.10.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.44.0 // indirect
+	go.opentelemetry.io/otel v1.18.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.10.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.10.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.10.0 // indirect
-	go.opentelemetry.io/otel/metric v0.31.0 // indirect
+	go.opentelemetry.io/otel/metric v1.18.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.10.0 // indirect
-	go.opentelemetry.io/otel/trace v1.10.0 // indirect
+	go.opentelemetry.io/otel/trace v1.18.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
 	golang.org/x/exp v0.0.0-20230811145659-89c5cff77bcb // indirect
 	golang.org/x/mod v0.12.0 // indirect
